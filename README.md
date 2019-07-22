@@ -6,6 +6,6 @@ npm run pugpug
 ```
 
 実行環境を揃える為にグローバルのgulpではなく、ローカルのgulpを実行するようにしました。  
-package.jsonのscript内でgulpコマンドを指定し`npm run`することで、ローカルのgulpを実行できます。
+package.jsonのscript内でgulpコマンドを指定し`npm run`することで、ローカルのgulpを実行できます。
 
 あと、ちょっとだけコメントも足しました。
