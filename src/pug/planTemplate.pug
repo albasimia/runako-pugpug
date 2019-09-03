@@ -1,18 +1,18 @@
-block vars
-  - function getNo(){
-  -   for(var i = 0; i < planList.length; i++){
-  -     if(planList[i].no === Number(fileName)){
-  -       return i;
-  -     }
-  -   }
-  - }
-  - const i = getNo()
+//- block vars
+//-   - function getNo(){
+//-   -   for(var i = 0; i < planList.length; i++){
+//-   -     if(planList[i].no === Number(fileName)){
+//-   -       return i;
+//-   -     }
+//-   -   }
+//-   - }
+//-   - const i = getNo()
 
 html
   head
     meta(charset="utf-8")
-    title プラン#{planList[i].no} - #{planList[i].title}
+    title プラン#{planList.no} - #{planList.title}
 
   body
-    h1 #{planList[i].title}
-    p #{planList[i].text}
+    h1 #{planList.title}
+    p #{planList.text}
