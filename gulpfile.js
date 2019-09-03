@@ -28,6 +28,7 @@ gulp.task('default', (done) => {
         .pipe(data (function (file){
           return {
             'fileName': file.path.split('/').pop().replace('.html', ''),
+            // json全体を渡すのをやめた。
             'planList': key
           }
         }))
